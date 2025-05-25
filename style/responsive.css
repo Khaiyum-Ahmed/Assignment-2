@@ -24,6 +24,33 @@
 }
 
 
+/* running section style */
+.running-section{
+    max-width: 684px;
+}
+.running-content{
+    width: 380px;
+}
+.running-content>h3{
+    font-size: 2.2rem;
+}
+.running-img{
+    width: 256px;
+    height: 319px;
+}
+.running-img>img{
+    width: 100%;
+    height: 100%;
+}
+
+/* training section style */
+
+
+/* BMI section style */
+
+
+
+
 
 }
 
@@ -76,10 +103,29 @@
     gap: 40px;
 }
 
+/* running section style */
+
+.running-section{
+    flex-direction: column;
+}
+.running-img{
+    width: 287px;
+    height: 170px;
+}
+.running-content{
+    width: 287px;
+    margin-bottom: 31px;
+}
+.running-content>h3{
+    font-size: 2rem;
+}
+
+/* training section style */
 
 
 
 
+/* BMI section style */
 
 
 

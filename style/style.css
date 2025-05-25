@@ -16,6 +16,16 @@
     box-sizing: border-box;
 }
 /* Shared style */
+.primary-btn{
+    border-style: none;
+    background-color: #E6533C;
+    border-radius: 42px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 22px;
+    color: #fff;
+    padding: 16px 71px;
+}
 .hide{
     display: none;
 }
@@ -311,3 +321,71 @@ nav{
     letter-spacing: .3px;
     color: rgba(255, 255, 255, .5);
 }
+
+/* running section style */
+
+.running-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    padding: 30px 32px;
+    border-radius: 18px;
+}
+.running-content{
+    width: 443px;
+    padding: 10px 22px;
+}
+.running-content>h3{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 14px;
+}
+.running-content>p{
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: .3px;
+    color: rgba(255, 255, 255, .5);
+    margin-bottom: 34px;
+}
+.running-content>input{}
+.running-img{
+    width: 366px;
+    
+    /* background-image: url(../images/run.jpg);
+    background-repeat: no-repeat;
+    background-size: 350%;
+    background-position:center; */
+    
+    /* overflow: hidden; */
+}
+.running-img>img{
+    width: 100%;
+    border-radius: 18px;
+    
+}
+
+
+/* training section style */
+
+
+
+
+/* BMI section style */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
