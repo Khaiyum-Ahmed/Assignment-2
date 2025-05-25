@@ -48,6 +48,36 @@
 
 /* BMI section style */
 
+.bmi-section-container{
+    align-items: start;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.bmi-chart-content{
+    margin-bottom: 60px;
+}
+
+.bmi-calculate{
+    max-width: 684px;
+    padding: 0px 15px;
+}
+.bmi-calculate-item{
+    grid-template-columns: repeat(2, 1fr);
+     width: 684px;
+}
+#activity{
+    width: 684px;
+}
+
+/* team section style */
+
+
+
+
+
+
+
+
 
 
 
@@ -126,6 +156,44 @@
 
 
 /* BMI section style */
+
+.bmi-section-container{
+    align-items: start;
+    flex-direction: column;
+    padding:0px 10px;
+}
+.bmi-chart-content{
+    margin-bottom: 60px;
+}
+.bmi-calculate{
+    max-width: 350px;
+    padding: 0px 15px;
+}
+.bmi-calculate-item{
+    grid-template-columns: repeat(2, 170px);
+}
+
+.bmi-calculate-item>input{
+    /* padding: 13px 20px;
+    background-color: rgba(255, 255, 255, .1);
+    border-style: none;
+    border-radius: 8px; */
+}
+#activity{
+    width: 353px;
+}
+
+/* team section style */
+
+
+
+
+
+
+
+
+
+
 
 
 
