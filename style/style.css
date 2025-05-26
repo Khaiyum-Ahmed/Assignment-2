@@ -370,7 +370,202 @@ nav{
 
 /* training section style */
 
+.training-container{
+    margin: 100px auto;
+}
+.training-content{
+    max-width: 670px;
+    margin-bottom: 58px;
+}
+.training-content>h3{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 14px;
+    margin-bottom: 14px;
+}
+.training-content>p{
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: .3px;
+    color: rgba(255, 255, 255, .5);
+    margin-bottom: 34px;
+}
 
+.training-session{}
+.top-section{
+    display: flex;
+    overflow: hidden;
+}
+.bottom-section{
+    display: flex;
+    overflow: hidden;
+}
+.img-1{
+    position: relative;
+    width: 250px;
+    height: 202px;
+}
+.img-1>img{
+    width: 100%;
+    height: 100%;
+}
+.img-1overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 202px;
+    background-color: rgba(6, 255, 210, .5);
+}
+.img-1>p{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+/* img-2 */
+
+.img-2{
+    position: relative;
+    width: 520px;
+    height: 202px;
+}
+.img-2>img{
+    width: 100%;
+    height: 100%;
+}
+.img-2overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 520px;
+    height: 202px;
+    background-color: rgba(255, 0, 0, .3);
+}
+.img-2>p{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+/* img-3 */
+.img-3{
+    position: relative;
+    width: 290px;
+    height: 202px;
+}
+.img-3>img{
+    width: 100%;
+    height: 100%;
+}
+.img-3overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 290px;
+    height: 202px;
+    background-color: rgba(0, 0, 0, .5);
+}
+.img-3>p{
+    width: 170px;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    font-size: .9rem;
+    font-weight: 500;
+    line-height: auto;
+}
+
+/* img-4 */
+.img-4{
+    position: relative;
+    width: 425px;
+    height: 202px;
+}
+.img-4>img{
+    width: 100%;
+    height: 100%;
+}
+.img-4overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 425px;
+    height: 202px;
+    background-color: rgba(0, 0, 0, .5);
+}
+.img-4>p{
+    width: 170px;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    font-size: .9rem;
+    font-weight: 500;
+    line-height: auto;
+}
+
+/* img-5 */
+.img-5{
+    position: relative;
+    width: 288px;
+    height: 202px;
+}
+.img-5>img{
+    width: 100%;
+    height: 100%;
+}
+.img-5overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 288px;
+    height: 202px;
+    background-color: rgba(66, 255, 0, .3);
+}
+.img-5>p{
+    width: 170px;
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    font-size: .9rem;
+    font-weight: 500;
+    line-height: auto;
+}
+
+/* img-6 */
+
+.img-6{
+    position: relative;
+    width: 347px;
+    height: 202px;
+}
+.img-6>img{
+    width: 100%;
+    height: 100%;
+}
+.img-6overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 347px;
+    height: 202px;
+    background-color: rgba(0, 71, 255, .3);
+}
+.img-6>p{
+    width: 170px;
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    font-size: .9rem;
+    font-weight: 500;
+    line-height: auto;
+}
 
 
 /* BMI section style */
