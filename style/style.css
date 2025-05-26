@@ -571,7 +571,7 @@ td,th{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, .4);
     width: 100%;
     height: 100%;
 }
@@ -593,12 +593,113 @@ td,th{
     color: rgba(255, 255, 255, .5);
 }
 
+/* membership section style */
+.membership-section{
+    margin: 80px 0px;
+}
+.membership-title{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.membership-title>h3{
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 10px;
+    margin-bottom: 30px;
+}
+.membership-title>p{
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 120%;
+    color: rgba(255, 255, 255, .5);
+}
+
+.membership-plans{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+.plan-box{
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, .25);
+    border-radius: 8px;
+    padding: 50px 20px;
+    text-align: center;
+}
+.plan-title{
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    margin-bottom: 30px;
+}
+.plan-title>h4{
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.plan-title>h2{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+     margin-bottom: 20px;
+}
+.plan-title>p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height:24px;
+    letter-spacing: .3px;
+     margin-bottom: 20px;
+     color: rgba(255, 255, 255, .5);
+}
+.plan-body{
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    margin-bottom: 30px;
+}
+.plan-body>h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.plan-body>p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height:24px;
+    letter-spacing: .3px;
+    color: rgba(255, 255, 255, .6);
+    margin-bottom: 20px;
+}
+.plan-footer{
+
+}
+.plan-footer>p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height:24px;
+    letter-spacing: .3px;
+    color: rgba(255, 255, 255, .5);
+    margin-bottom: 40px;
+}
+.plan-body>p>i{
+    color: #E6533C;
+}
+.not-checked{
+    opacity: .6;
+}
+.plan-footer>input{}
+
+
+
+
+
 
 
 /* footer section style */
-/* hr{
-    color: #fff;
-} */
+
 footer{
     background-color: rgba(255, 255, 255, .1);
     margin-top: 88px;

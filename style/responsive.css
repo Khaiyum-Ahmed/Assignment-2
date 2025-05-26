@@ -193,14 +193,16 @@
 /* footer section style */
 
 .footer-content{
-    /* padding: 70px 0px;
-    border-bottom: 2px solid rgba(255, 255, 255, .1);
-    display: grid;
-    grid-template-columns: 443px repeat(2, 181px);
-    gap: 100px; */
     grid-template-columns: 1fr;
 }
 
+/* membership section style */
+.membership-plans{
+    grid-template-columns: 1fr;
+}
+.membership-section{
+   padding: 40px;
+}
 
 
 
