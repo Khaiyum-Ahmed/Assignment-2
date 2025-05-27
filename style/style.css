@@ -784,19 +784,7 @@ td,th{
     border-radius: 18px;
 }
 
-/* .trainer-img{
-    width: 326px;
-    height: 272px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 18px;
-} */
-/* .trainer-img>img{
-    border-radius: 18px;
-    width: 100%;
-    height: fit-content;
-    overflow: hidden;
-} */
+
 .overlay{
     border-radius: 18px;
     position: absolute;
@@ -807,9 +795,6 @@ td,th{
     height: 100%;
 }
 .trainer-content{
-    /* position: absolute;
-    left: 20px;
-    bottom: 15px; */
     z-index: 1;
 }
 .trainer-content>h4{
@@ -825,7 +810,10 @@ td,th{
     color: rgba(255, 255, 255, .5);
 }
 
+
 /* membership section style */
+
+
 .membership-section{
     margin: 80px 0px;
 }

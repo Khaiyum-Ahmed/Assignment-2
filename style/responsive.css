@@ -94,8 +94,13 @@
     height: 272px;
 }
 
+/* membership section style */
 
-
+.membership-plans{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
 
 
 
