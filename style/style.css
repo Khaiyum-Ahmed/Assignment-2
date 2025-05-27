@@ -55,6 +55,7 @@ body{
 
 
 /* header & nav section style */
+
 header{
     background: linear-gradient(rgba(17, 17, 17, .3),rgba(119, 119, 119, .4),rgba(119, 119, 119, .3),rgba(17, 17, 17, 0));
     /* background-image: linear-gradient(rgba(17, 17, 17, 1), rgba(119, 119, 119, 0)); */
@@ -688,20 +689,9 @@ td,th{
     line-height: 22px;
     margin-bottom: 34px;
 }
-.bmi-calculate-item> select option{
-    width: 200px;
-    min-height: 200px;
-    padding: 13px 20px;
-    background-color: rgba(255, 255, 255, .1);
-    color: rgba(255, 255, 255, .6);
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 22px;
+option{
+    background-color: rgba(56, 56, 56);
 }
-
-
-
-
 
 /* team section style */
 
@@ -742,58 +732,49 @@ td,th{
     padding: 20px;
 }
 .trainer-img1{
-    background-image: url(../images/trainer1.png);
+    background:linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../images/trainer1.png);
     background-position: center;
     background-size: cover;
     width: 100%;
     border-radius: 18px;
+
 }
 .trainer-img2{
-     background-image: url(../images/trainer2.png);
+     background:linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../images/trainer2.png);
      background-position: center;
     background-size: cover;
     width: 100%;
     border-radius: 18px;
 }
 .trainer-img3{
-     background-image: url(../images/trainer3.png);
+     background:linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../images/trainer3.png);
      background-position: center;
     background-size: cover;
     width: 100%;
     border-radius: 18px;
 }
 .trainer-img4{
-     background-image: url(../images/trainer4.png);
+     background:linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../images/trainer4.png);
      background-position: center;
     background-size: cover;
     width: 100%;
     border-radius: 18px;
 }
 .trainer-img5{
-     background-image: url(../images/trainer5.png);
+     background:linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../images/trainer5.png);
      background-position: center;
     background-size: cover;
     width: 100%;
     border-radius: 18px;
 }
 .trainer-img6{
-     background-image: url(../images/trainer6.png);
+     background:linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../images/trainer6.png);
      background-position: center;
     background-size: cover;
     width: 100%;
     border-radius: 18px;
 }
 
-
-.overlay{
-    border-radius: 18px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, .4);
-    width: 100%;
-    height: 100%;
-}
 .trainer-content{
     z-index: 1;
 }
