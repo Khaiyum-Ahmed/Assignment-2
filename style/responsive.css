@@ -102,9 +102,19 @@
     gap: 40px;
 }
 
+/* footer section style */
 
-
-
+.footer-brand{
+    margin-bottom: 100px;
+}
+.footer-content{
+   flex-direction: column;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+.footer-menu{
+    gap: 80px;
+}
 
 
 
@@ -324,7 +334,20 @@
 .membership-section{
    padding: 40px;
 }
+/* footer section style */
 
+.footer-brand{
+    margin-bottom: 100px;
+}
+.footer-content{
+   flex-direction: column;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+.footer-menu{
+    flex-direction: column;
+    gap: 80px;
+}
 
 
 

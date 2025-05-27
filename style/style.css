@@ -929,11 +929,22 @@ footer{
 .footer-content{
     padding: 70px 0px;
     border-bottom: 2px solid rgba(255, 255, 255, .1);
-    display: grid;
-    grid-template-columns: 443px repeat(2, 181px);
-    gap: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
 }
-.footer-brand{}
+.footer-menu{
+    max-width: 514px;
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+.footer-sub-menu{
+
+}
+.footer-brand{
+    max-width: 443px;
+}
 .footer-brand>h2{
     font-size: 4.4rem;
     font-weight: 800;
