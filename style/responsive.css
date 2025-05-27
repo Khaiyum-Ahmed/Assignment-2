@@ -64,6 +64,54 @@
 /* training section style */
 
 
+.img-1{
+    width: 214px;
+    height: 201px;
+}
+.img-1overlay{
+    width: 214px;
+    height: 201px;
+}
+.img-2{
+    width: 259px;
+    height: 201px;
+}
+.img-2overlay{
+     width: 259px;
+    height: 201px;
+}
+.img-3{
+    width: 211px;
+    height: 201px;
+}
+.img-3overlay{
+    width: 211px;
+    height: 201px;
+}
+.img-4{
+    width: 276px;
+    height: 201px;
+}
+.img-4overlay{
+     width: 276px;
+    height: 201px;
+}
+.img-5{
+    width: 210px;
+    height: 201px;
+}
+.img-5overlay{
+     width: 210px;
+    height: 201px;
+}
+.img-6{
+    width: 198px;
+    height: 201px;
+}
+.img-6overlay{
+     width: 198px;
+    height: 201px;
+}
 /* BMI section style */
 
 .bmi-section-container{
@@ -276,12 +324,29 @@
 /* training section style */
 
 .top-section{
+    /* display: flex;
     flex-wrap: wrap;
-    overflow: hidden;
+    overflow: hidden; */
+    display: grid;
+    grid-template-columns: 175px 175px;
 }
 .bottom-section{
-    display: flex;
-    overflow: hidden;
+    /* display: flex;
+    flex-wrap: wrap;
+    overflow: hidden; */
+     display: grid;
+    grid-template-columns: 175px 175px;
+}
+.img-1, .img-2, .img-3, .img-4, .img-5, .img-6{
+    width: 175px;
+    height: 128px;
+}
+.img-1overlay, .img-2overlay, .img-3overlay, .img-4overlay, .img-5overlay, .img-6overlay{
+     width: 175px;
+    height: 128px;
+}
+.img-3, .img-6, .img-3overlay, .img-6overlay{
+    display: none;
 }
 
 
