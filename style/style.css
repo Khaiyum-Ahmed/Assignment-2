@@ -386,6 +386,7 @@ nav{
 }
 
 .training-session{}
+
 .top-section{
     display: flex;
     overflow: hidden;
@@ -607,7 +608,6 @@ nav{
 
 table{
     max-width: 310px;
-   /* border: 1px solid rgba(255, 255, 255, .1); */
    text-align: left;
     border-collapse: collapse;
 
@@ -630,8 +630,6 @@ td,th{
     border: 1px solid rgba(255, 255, 255, .1);
     text-shadow: 1px 1px 1px rgba(255, 255, 255, .1);
 }
-
-
 
 .bmi-calculate{
     max-width: 577px;
@@ -701,8 +699,8 @@ td,th{
     line-height: 22px;
 }
 
-.bmi-calculate>input{}
-.bmi-calculate>input{}
+
+
 
 
 /* team section style */
