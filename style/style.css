@@ -746,23 +746,57 @@ td,th{
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 100%;
+    border-radius: 18px;
+}
+.trainer-img2{
+     background-image: url(../images/trainer2.png);
+     background-position: center;
+    background-size: cover;
+    width: 100%;
+    border-radius: 18px;
+}
+.trainer-img3{
+     background-image: url(../images/trainer3.png);
+     background-position: center;
+    background-size: cover;
+    width: 100%;
+    border-radius: 18px;
+}
+.trainer-img4{
+     background-image: url(../images/trainer4.png);
+     background-position: center;
+    background-size: cover;
+    width: 100%;
+    border-radius: 18px;
+}
+.trainer-img5{
+     background-image: url(../images/trainer5.png);
+     background-position: center;
+    background-size: cover;
+    width: 100%;
+    border-radius: 18px;
+}
+.trainer-img6{
+     background-image: url(../images/trainer6.png);
+     background-position: center;
+    background-size: cover;
+    width: 100%;
     border-radius: 18px;
 }
 
-.trainer-img{
+/* .trainer-img{
     width: 326px;
     height: 272px;
     position: relative;
     overflow: hidden;
     border-radius: 18px;
-}
-.trainer-img>img{
+} */
+/* .trainer-img>img{
     border-radius: 18px;
     width: 100%;
     height: fit-content;
-    /* overflow: hidden; */
-}
+    overflow: hidden;
+} */
 .overlay{
     border-radius: 18px;
     position: absolute;

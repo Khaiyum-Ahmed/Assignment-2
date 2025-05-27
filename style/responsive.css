@@ -89,7 +89,10 @@
 
 /* team section style */
 
-
+.trainer-container{
+    width: 199px;
+    height: 272px;
+}
 
 
 
@@ -299,8 +302,8 @@
 /* team section style */
 
 .team-members{
-    flex-direction: column;
     grid-template-columns: 1fr;
+    gap: 30px;
 }
 
 /* footer section style */
